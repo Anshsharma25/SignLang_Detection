@@ -44,4 +44,4 @@ actions = np.array(['A','B','C'])
 #define the no of sequesnce 
 
 no_sequences = 30 
-sequnece_length = 30
+sequence_length = 30
