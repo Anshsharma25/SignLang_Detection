@@ -90,6 +90,7 @@ with mp_hands.Hands(
         sequence.append(keypoints)
         sequence = sequence[-30:]  # Keep only the last 30 frames for sequence input
 
+        #try and exception block start
         try:
             # Check if enough frames are collected for prediction
             if len(sequence) == 30:
@@ -137,6 +138,7 @@ with mp_hands.Hands(
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
 
+        
         # Show the processed frame on the screen
         cv2.imshow('OpenCV Feed', frame)
 
