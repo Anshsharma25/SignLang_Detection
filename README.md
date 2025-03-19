@@ -105,7 +105,7 @@ The model was trained using a dataset of hand gesture images. Key steps included
 - Preprocessing and augmentation
 - Training a sequential neural network
 
----
+----
 
 ## 🌟 Future Enhancements
 
