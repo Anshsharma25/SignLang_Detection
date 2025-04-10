@@ -7,7 +7,6 @@ Welcome to the **Sign Language Detection** project! This application uses comput
 ## 📖 Overview
 
 This project leverages MediaPipe for hand detection and a custom-trained deep learning model to recognize various sign language gestures. It can predict hand gestures and display the corresponding actions or words in real-time. 
-
 ---
 
 ## ✨ Features
