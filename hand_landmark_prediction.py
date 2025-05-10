@@ -1,9 +1,9 @@
 # entry point to our project 
 from function import *
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.models import model_from_json
-from tensorflow.keras.layers import LSTM, Dense #lstm is use for converting the image into alphabitc 
-from tensorflow.keras.callbacks import TensorBoard
+from keras.utils import to_categorical
+from keras.models import model_from_json
+from keras.layers import LSTM, Dense #lstm is use for converting the image into alphabitc 
+from keras.callbacks import TensorBoard
 import streamlit as st
 #
 json_file = open("model.json" ,"r")
